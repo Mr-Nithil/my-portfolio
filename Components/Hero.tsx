@@ -5,6 +5,8 @@ import Image from 'next/image';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
 import { PlayCircleIcon } from '@heroicons/react/20/solid';
 
+
+
 const Hero = () => {
   return (
     <div className="h-[88vh] bg-[url('/images/Background3.jpg')] mt-[10vh] bg-cover bg-center">
