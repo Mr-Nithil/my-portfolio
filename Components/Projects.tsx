@@ -3,9 +3,9 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]'>
+    <div className='bg-[#222831] pt-[4rem] md:pt-[8rem] pb-[1rem]'>
       <h1 className='heading'>
-        Pro<span className='text-yellow-400'>Ject</span>
+        Pro<span className='text-[#ebd849]'>Jects</span>
       </h1>
       <div className='w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]'>
         <div data-aos="fade-up">

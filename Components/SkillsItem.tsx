@@ -3,19 +3,20 @@ import React from 'react'
 interface Props {
     title: string;
     year: string;
+    description: string;
 }
 
-const SkillsItem = ({title,year}: Props) => {
+const SkillsItem = ({title,year,description}: Props) => {
   return (
-    <div className='mb-[3rem] md:mb-[6rem]'>
-        <span className='px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5]'>
+    <div className='mb-[2rem] md:mb-[4rem]'>
+        <span className='px-[2rem] text-[#348a8f] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#348a8f]'>
             {year}
         </span>
-        <h1 className='mt-[2rem] uppercase font-bold mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-white'>
+        <h1 className='mt-[2rem] uppercase font-bold mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-[#EEEEEE]'>
             {title}
         </h1>
-        <p className='text-[#a1a1a1] font-normal w-[90%] text=[17px] opacity=80'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&epos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <p className='text-[#a1a1a1] font-normal w-[90%] text-[21px] opacity-80'>
+        {description}
         </p>
     </div>
   )

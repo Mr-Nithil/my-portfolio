@@ -4,11 +4,12 @@ import Hero from "@/Components/Hero";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
-import Services from "@/Components/Services";
+import Services from "@/Components/Areas";
 import Skills from "@/Components/Skills";
 import React, { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Areas from "@/Components/Areas";
 
 const HomePage = () =>{
 
@@ -57,7 +58,7 @@ const HomePage = () =>{
         <div className="relative z-[30]">
           <About/>
           {/* Services */}
-          <Services />
+          <Areas />
           {/* Skills */}
           <Skills />
           <Projects />

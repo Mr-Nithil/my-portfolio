@@ -5,18 +5,22 @@ const TextEffect = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Coder',
+        'FrontEnd Development',
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        'Programmer',
+        'Backend Development',
         1500,
-        'Web Developer',
+        'Machine Learning',
         1500,
-        'Volunteer',
+        'Artificial Intelligence',
+        1500,
+        'Deep Learning',
+        1500,
+        'DevOps Engineering',
         1500
       ]}
 
       speed={50}
-      className='text-[2rem] md:text-[3rem] text-[#29A8DF] font-bold uppercase'
+      className='text-[1rem] md:text-[2rem] text-[#348a8f] font-bold uppercase'
       repeat={Infinity}
     />
   );
